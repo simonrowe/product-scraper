@@ -11,7 +11,7 @@
 	<groupId>org.simonjamesrowe</groupId>
 	<artifactId>product-scraper</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>topshop-crawler</name>
+	<name>product-crawler</name>
 	<description>Crawler for online product websites</description>
 
 	<properties>
@@ -22,6 +22,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-json</artifactId>
 		</dependency>
 
 		<dependency>
